@@ -3,8 +3,8 @@ package com.company;
 class Rectangle extends GeometricObject {
 
     //Fields (C1)
-    public double side1;
-    public double side2;
+    private double side1;
+    private double side2;
 
     //No arg constructor -- Default Values(C2)
     public Rectangle(){
@@ -21,12 +21,12 @@ class Rectangle extends GeometricObject {
     //Override from GeometricObject (C4)
     @Override
     public double getArea() {
-        return 0;
+        return (side1 * side2);
     }
 
     //Override from GeometricObject (C5)
     @Override
     public double getPerimeter() {
-        return 0;
+        return (2 * (side1+side2));
     }
-}
+}//End of Class

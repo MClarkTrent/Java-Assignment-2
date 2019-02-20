@@ -41,4 +41,4 @@ class Circle extends GeometricObject {
     }
 
 
-}// End of classs
+}// End of class

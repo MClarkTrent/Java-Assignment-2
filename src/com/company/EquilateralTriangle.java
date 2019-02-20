@@ -16,6 +16,6 @@ public class EquilateralTriangle extends Triangle {
         side3 = side;
     }
 
-}
+}// End of Class
 
 

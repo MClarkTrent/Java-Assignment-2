@@ -15,7 +15,7 @@ public class Main {
 
 
 
-    }
+    }//End of Main method
 
     private static void fillArray(GeometricObject gObject){
 
@@ -26,5 +26,5 @@ public class Main {
         //Complete your code here
 
 
-    }//End of Main method
+    }
 }//End of Class
