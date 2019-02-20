@@ -1,0 +1,21 @@
+package com.company;
+
+public class EquilateralTriangle extends Triangle {
+
+    //Define fields (B1)
+    private double side;
+
+    //Constructor (B2)
+    public EquilateralTriangle(double side, double side1, double side2, double side3){
+        super(side1, side2,side3);
+        this.side = side;
+
+        //Set Values of sides from Triangle Class
+        side1 = side;
+        side2 = side;
+        side3 = side;
+    }
+
+}
+
+
