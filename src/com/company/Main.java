@@ -9,12 +9,10 @@ public class Main {
 
 
         System.out.println("welcome");
-        double testPrint = Circle.getCenterX();
-        System.out.println(testPrint);
+
 
     }
 
-    public static void
 
     private static void printAreaAndPerimeter(GeometricObject gObject) {
         //Complete your code here
