@@ -15,12 +15,14 @@ class Triangle extends GeometricObject {
     }
 
     //Override method findArea in GeometricObject
+    @Override
     public double getArea() {
         double s = (side1 + side2 + side3) / 2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 
     //Override method getPerimeter in GeometricObject
+    @Override
     public double getPerimeter() {
         return side1 + side2 + side3;
     }

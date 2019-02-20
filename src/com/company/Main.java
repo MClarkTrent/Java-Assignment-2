@@ -3,13 +3,21 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        //Create Geometric Object Array
-        GeometricObject gObjectArray [] = new GeometricObject [4];
-        //Complete your code here
-
-
+        //Welcome Message
         System.out.println("welcome");
 
+        //Create Geometric Object Array
+        GeometricObject gObjectArray [] = new GeometricObject [4];
+
+        //Fill Array
+
+
+
+
+
+    }
+
+    private static void fillArray(GeometricObject gObject){
 
     }
 

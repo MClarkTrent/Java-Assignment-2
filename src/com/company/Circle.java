@@ -29,10 +29,16 @@ class Circle extends GeometricObject {
     public double getRadius() { return radius; }
 
     //Override getArea from GeometricObject Class (A5)
-    public double getArea(){ return (radius * radius * Math.PI); }
+    @Override
+    public double getArea(){
+        return (radius * radius * Math.PI);
+    }
 
     //Override getPerimeter from GeometricObject Class (A6)
-    public double getPerimeter(){return (2 * Math.PI * (radius * 2)); }
+    @Override
+    public double getPerimeter(){
+        return (2 * Math.PI * (radius * 2));
+    }
 
 
 }// End of classs
