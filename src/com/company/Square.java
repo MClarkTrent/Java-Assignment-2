@@ -9,10 +9,12 @@ class Square extends Rectangle{
     public Square(double side, double side1, double side2){
         //pass from super
         super(side1, side2);
+        //Set side
+        this.side = side;
 
         //Set side1 and side2
-        side1 = side;
-        side2 = side;
+        this.side1 = side;
+        this.side2 = side;
     }
 
     //Override getArea from GeometricObject (D3)

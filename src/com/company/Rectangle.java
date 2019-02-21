@@ -3,8 +3,7 @@ package com.company;
 class Rectangle extends GeometricObject {
 
     //Fields (C1)
-    private double side1;
-    private double side2;
+    public double side1,side2;
 
     //No arg constructor -- Default Values(C2)
     public Rectangle(){

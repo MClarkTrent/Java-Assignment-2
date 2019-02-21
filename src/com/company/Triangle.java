@@ -1,7 +1,7 @@
 package com.company;
 
 class Triangle extends GeometricObject {
-    private double side1 = 1.0, side2 = 1.0, side3 = 1.0;
+    public double side1 = 1.0, side2 = 1.0, side3 = 1.0;
 
     // Constructor
     public Triangle() {

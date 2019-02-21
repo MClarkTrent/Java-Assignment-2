@@ -11,9 +11,9 @@ public class EquilateralTriangle extends Triangle {
         this.side = side;
 
         //Set Values of sides from Triangle Class
-        side1 = side;
-        side2 = side;
-        side3 = side;
+        this.side1 = side;
+        this.side2 = side;
+        this.side3 = side;
     }
 
 }// End of Class
