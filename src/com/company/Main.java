@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Welcome Message
-        System.out.println("welcome");
+        System.out.println("welcome -- this program will find the area and perimeter of geometric shapes");
+        System.out.println(" ");
 
         //Create Geometric Object Array
         GeometricObject gObject[] = new GeometricObject [5];
